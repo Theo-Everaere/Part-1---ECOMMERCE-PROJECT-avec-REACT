@@ -1,0 +1,28 @@
+.products-page {
+  display: flex;
+  background-color: #1b263b;
+  color: #eaecef;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.products-main {
+  width: 80%;
+  padding: 2rem;
+  flex: 1;
+}
+
+.products-main h1 {
+  font-size: 2.5rem;
+  color: #a8d0e6;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  grid-template-rows: auto;
+  margin-top: 2rem;
+}

@@ -1,0 +1,96 @@
+.addproduct-title {
+  font-size: 2.5rem;
+  color: #a8d0e6;
+  margin: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.addproduct-form-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.addproduct-form-container label {
+  display: block;
+  font-size: 1rem;
+  color: #d4e7f3;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.addproduct-form-container input,
+.addproduct-form-container select,
+.addproduct-form-container textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #d4e7f3;
+}
+
+.addproduct-form-container textarea {
+  resize: none;
+  height: 100px;
+}
+
+.addproduct-form-container input:focus,
+.addproduct-form-container select:focus,
+.addproduct-form-container textarea:focus {
+  border-color: #63cdda;
+  outline: none;
+  box-shadow: 0 0 5px rgba(99, 205, 218, 0.8);
+}
+
+.addproduct-form-container button {
+  font-size: 1.1rem;
+  color: #ffffff;
+  background-color: #1c698a;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.addproduct-form-container button:hover {
+  background-color: #145270;
+}
+
+.addproduct-form-container .form-check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.addproduct-form-container .form-check-input {
+  width: 20px;
+  height: 20px;
+  accent-color: #63cdda;
+  border-radius: 3px;
+  border: 2px solid #d4e7f3;
+  transition: box-shadow 0.3s ease;
+}
+
+.form-control {
+  color: #3d4144;
+}
+
+.addproduct-form-container .form-check-input:hover {
+  box-shadow: 0 0 5px rgba(99, 205, 218, 0.8);
+}
+
+.addproduct-form-container .form-check-label {
+  font-size: 0.95rem;
+  color: #d4e7f3;
+  cursor: pointer;
+}

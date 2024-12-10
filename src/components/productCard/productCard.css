@@ -1,0 +1,45 @@
+.product-card {
+  background-color: #243b55;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card h3 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+}
+
+.product-card p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #a8d0e6;
+}
+
+.product-card a {
+  color: #f8f8f8;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.product-card button {
+  background-color: #ffffff;
+  color: rgb(24, 25, 30);
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: background-color 0.2s;
+}
+
+.product-card button:hover {
+  background-color: #171d23;
+  color: rgb(255, 255, 255);
+}

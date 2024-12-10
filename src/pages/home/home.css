@@ -1,0 +1,106 @@
+.home-container {
+  padding: 3rem;
+  text-align: center;
+  background-color: #1b263b;
+  color: #eaecef;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  color: #a8d0e6;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.home-container p {
+  font-size: 1.1rem;
+  color: #d4e7f3;
+  line-height: 1.5;
+  margin: 0.5rem 0;
+}
+
+.project-description {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem 3rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.project-description h2 {
+  font-size: 2rem;
+  color: #63cdda;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.project-description p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  line-height: 1.7;
+  color: #d4e7f3;
+}
+
+.project-description strong {
+  color: #63cdda;
+}
+
+.project-description a {
+  font-size: 1.1rem;
+  color: #ffffff;
+  background-color: #243b55;
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.project-description a:hover {
+  background-color: #1c698a;
+}
+
+@media (max-width: 1024px) {
+  .home-container {
+    padding: 2rem;
+  }
+
+  .project-description {
+    padding: 2rem 1.5rem;
+  }
+
+  .project-description h2 {
+    font-size: 1.8rem;
+  }
+
+  .project-description p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-description {
+    padding: 1.5rem;
+  }
+
+  .project-description h2 {
+    font-size: 1.6rem;
+  }
+
+  .project-description p {
+    font-size: 0.95rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
