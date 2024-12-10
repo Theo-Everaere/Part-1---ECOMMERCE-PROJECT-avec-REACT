@@ -1,5 +1,7 @@
 # Part-1---ECOMMERCE-PROJECT-avec-REACT
 
+#TODO: GESTION DU CART POUR LES UTILISATEURS - > A venir dans la Part 2. 
+
 # Description:
 
 Ce projet implémente le frontend d'une plateforme e-commerce en utilisant React. Il permet aux utilisateurs de s'inscrire, se connecter et gérer des produits dans leur profil. L'application communique avec un backend sécurisé en utilisant JWT pour l'authentification et gère les produits avec les fonctionnalités de création, modification et suppression.
